@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Account & Data Deletion for Kickli, a baby kick counter app.">
+<title>Account & Data Deletion | Kickli</title><style>
+:root{--bg:#F6F5FA;--surface:#FFFFFF;--tint:#EAE8F8;--primary:#7B6FE6;--deep:#6A5AE0;--pink:#E28AAE;--text:#111827;--muted:#75728F;--outline:#E6E4F0;--danger:#E5484D}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.7}
+header{padding:42px 24px 30px;background:linear-gradient(110deg,var(--primary),var(--pink));color:white}
+.wrap{max-width:850px;margin:auto;padding:0 24px}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15;margin:0 0 12px}header p{margin:0;max-width:680px}
+main{padding:28px 0 60px}.panel{background:var(--surface);border:1px solid var(--outline);border-radius:20px;padding:24px;margin:0 0 18px}
+h2{font-size:1.35rem;line-height:1.3;margin:0 0 10px}h3{font-size:1.05rem;margin:20px 0 6px}a{color:var(--deep);overflow-wrap:anywhere}
+nav{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px}nav a{color:white;font-weight:bold}
+.note{background:var(--tint);border-radius:12px;padding:14px 16px}.warning{border-left:4px solid var(--danger);padding:12px 16px;background:#fff5f5}
+footer{color:var(--muted);padding:20px 0 36px;font-size:.9rem}li{margin:.35rem 0}
+</style></head><body>
+<header><div class="wrap"><div style="font-weight:800;letter-spacing:.04em;margin-bottom:12px">Kickli</div>
+<h1>Account & Data Deletion</h1><p>How Kickli users can request deletion of their account and associated data.</p><nav><a href="./index.html">Legal home</a><a href="./privacy-policy.html">Privacy Policy</a><a href="./delete-account.html">Account &amp; Data Deletion</a></nav></div></header>
+<main class="wrap">
+<section class="panel"><p><strong>Important:</strong> This page is a draft. The email link below is a request channel, not an automated deletion system. Before publishing, confirm that the team can verify requests, delete the account and associated data from the backend, handle device-local data, and communicate completion.</p>
+<h2>How to request deletion</h2><ol><li>Email <a href="mailto:pixeltronixlab@gmail.com?subject=Kickli%20account%20and%20data%20deletion">pixeltronixlab@gmail.com</a> with the subject <strong>Kickli account and data deletion</strong>.</li><li>Send the request from the email address associated with your Kickli account, if applicable. If you cannot access that address, explain this in your message. Do not email passwords or authentication codes.</li><li>We may ask for reasonable information to verify that you control the account. We will not ask you to send your password.</li><li>We will confirm receipt and, after verification, process the request according to the retention rules explained below.</li></ol>
+<p class="note"><a href="mailto:pixeltronixlab@gmail.com?subject=Kickli%20account%20and%20data%20deletion">Email Kickli to request account deletion</a></p>
+<h2>What deletion should cover</h2><p>When a verified request is approved, Kickli should delete the account and associated personal data that it is not required or permitted to retain. This may include cloud-stored kick-session history, profile/account data, invitation or sharing records, and other data linked to the account, if those categories are collected by the released app.</p>
+<p><strong>Verify before publishing:</strong> document exactly what is deleted, whether shared copies or data already seen by invited partners can be removed, whether purchase records are retained by an app-store provider, and how backups are handled. Do not promise deletion of data that Kickli cannot control.</p>
+<h2>Data that may be retained</h2><p><strong>Verify before publishing:</strong> if any information must be retained for legal, accounting, security, fraud-prevention, or dispute-resolution reasons, identify the categories, reason, and retention period here. If no such retention applies, say so only after confirming it.</p>
+<h2>What about data stored on your phone?</h2><p><strong>Verify before publishing:</strong> explain whether signing out, deleting the account, or uninstalling Kickli removes local session history. If local records are not automatically removed by account deletion, give clear steps for deleting them.</p>
+<h2>How long will it take?</h2><p><strong>Verify before publishing:</strong> insert the actual processing target and any different timeline for backups or data that must be retained. Do not promise a timeframe the team cannot meet.</p>
+<h2>Need help?</h2><p>Email <a href="mailto:pixeltronixlab@gmail.com">pixeltronixlab@gmail.com</a>. Please do not include passwords, one-time codes, or unnecessary sensitive information.</p>
+</section>
+<section class="panel warning"><h2>Google Play implementation checklist</h2><ul>
+<li>Provide an account-deletion option inside Kickli, not just this website, because users can create accounts.</li><li>Provide this public web deletion request path in Play Console.</li><li>Ensure the request actually reaches a monitored inbox or working deletion system.</li><li>Implement deletion across account records, cloud session data, sharing records, and relevant backups according to the stated policy.</li><li>Complete the Data deletion questions in Play Console's Data safety section and ensure they match actual behavior.</li>
+</ul></section>
+</main><footer class="wrap">Kickli · Contact: <a href="mailto:pixeltronixlab@gmail.com">pixeltronixlab@gmail.com</a></footer></body></html>
